@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: webapp:0.2
+        image: ghcr.io/mfzhsn/webapp:latest
         ports:
         - containerPort: 8080
 ---
